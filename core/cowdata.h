@@ -86,8 +86,9 @@ private:
 	}
 
 	_FORCE_INLINE_ bool _get_alloc_size_checked(size_t p_elements, size_t *out) const {
-#if defined(_add_overflow) && defined(_mul_overflow)
-		size_t o;
+//#if defined(_add_overflow) && defined(_mul_overflow)
+#if 0
+		size_t o = 0;
 		size_t p;
 		if (_mul_overflow(p_elements, sizeof(T), &o)) {
 			*out = 0;

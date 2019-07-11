@@ -1,4 +1,4 @@
-﻿/*
+/*
 Bullet Continuous Collision Detection and Physics Library
 Copyright (c) 2003-2006 Erwin Coumans  http://continuousphysics.com/Bullet/
 
@@ -13,6 +13,7 @@ subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 */
 
+#include <sys/types.h>
 #include "btGjkPairDetector.h"
 #include "BulletCollision/CollisionShapes/btConvexShape.h"
 #include "BulletCollision/NarrowPhaseCollision/btSimplexSolverInterface.h"
